@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.Task;
-import com.example.demo.repositories.TaskRepository;
+import com.example.demo.repository.TaskRepository;
 
 @Service
 public class TaskServiceImpl implements TaskService {
